@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/kevinCG/static/css/main.c4474b91.chunk.css",
+    "main.js": "/kevinCG/static/js/main.84abc88d.chunk.js",
+    "main.js.map": "/kevinCG/static/js/main.84abc88d.chunk.js.map",
+    "runtime-main.js": "/kevinCG/static/js/runtime-main.4d043196.js",
+    "runtime-main.js.map": "/kevinCG/static/js/runtime-main.4d043196.js.map",
+    "static/css/2.27ada493.chunk.css": "/kevinCG/static/css/2.27ada493.chunk.css",
+    "static/js/2.02dff8cc.chunk.js": "/kevinCG/static/js/2.02dff8cc.chunk.js",
+    "static/js/2.02dff8cc.chunk.js.map": "/kevinCG/static/js/2.02dff8cc.chunk.js.map",
+    "index.html": "/kevinCG/index.html",
+    "static/css/2.27ada493.chunk.css.map": "/kevinCG/static/css/2.27ada493.chunk.css.map",
+    "static/css/main.c4474b91.chunk.css.map": "/kevinCG/static/css/main.c4474b91.chunk.css.map",
+    "static/js/2.02dff8cc.chunk.js.LICENSE.txt": "/kevinCG/static/js/2.02dff8cc.chunk.js.LICENSE.txt",
+    "static/media/cv.523da864.pdf": "/kevinCG/static/media/cv.523da864.pdf",
+    "static/media/perfil.32a9ec21.jpg": "/kevinCG/static/media/perfil.32a9ec21.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4d043196.js",
+    "static/css/2.27ada493.chunk.css",
+    "static/js/2.02dff8cc.chunk.js",
+    "static/css/main.c4474b91.chunk.css",
+    "static/js/main.84abc88d.chunk.js"
+  ]
+}
