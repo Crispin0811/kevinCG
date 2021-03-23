@@ -15,7 +15,7 @@ export default class Portafolios extends Component {
   }
 
   llenarData = async () => {
-    await fetch("http://localhost:3000/api/getPortafolios", {
+    await fetch("https://portafolio-kcg.herokuapp.com/api/getPortafolios", {
       mode: "cors",
       headers: {
         "Access-Control-Allow-Origin": "*",
