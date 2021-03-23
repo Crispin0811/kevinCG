@@ -1,0 +1,104 @@
+@media screen and (min-width: 860px) {
+  .btnX,
+  .btnHamburguesa {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .home__img img {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 960px) {
+  .home__descripcion {
+    font-size: $font-size + 20;
+  }
+
+  .sobreMi__descripcion-img img {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .contenedor,
+  .contenedor--secundario {
+    padding: 45px 20px;
+  }
+  .navbar__lista {
+    display: none;
+  }
+
+  .diplayHidden {
+    display: flex;
+  }
+  .btnX {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .sobreMi__descripcion-parrafo {
+    margin-left: 15px;
+    & p {
+      font-size: $font-size;
+    }
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .sobreMi__descripcion {
+    flex-direction: column;
+  }
+  .sobreMi__descripcion-img,
+  .sobreMi__descripcion-parrafo {
+    width: 100%;
+  }
+  .sobreMi__descripcion-parrafo {
+    margin: 25px 0 0 0;
+  }
+
+  .portafolio__filtros {
+    align-content: space-around;
+    justify-content: space-around;
+    & button {
+      padding: 10px 20px;
+    }
+  }
+
+  .contactos svg {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .home {
+    flex-direction: column;
+  }
+  .home__detalles,
+  .home__img {
+    width: 100%;
+  }
+  .home__img {
+    margin-top: 60px;
+  }
+
+  .portafolio__filtros button {
+    padding: 10px 20px;
+    margin: 10px 0;
+  }
+}
+@media screen and (max-width: 370px) {
+  .portafolio__filtros {
+    flex-wrap: wrap;
+    & button {
+      padding: 5px 15px;
+      margin: 10px 0;
+    }
+  }
+  .contactos svg {
+    margin: 5px 40px;
+  }
+  .home__descripcion {
+    font-size: $font-size + 10;
+  }
+}

@@ -1,0 +1,36 @@
+%btn {
+  color: white;
+  background-color: $color-primario;
+  font-size: $font-size;
+  padding: 10px 40px;
+  border-radius: $border-Radius;
+  transition: all $transition;
+  margin: 15px 0;
+  outline: none;
+  border: none;
+  box-sizing: content-box;
+
+  &:hover {
+    background-color: white;
+    cursor: pointer;
+    border-radius: 0;
+    color: $color-primario;
+    border-bottom: 2px solid $color-primario;
+  }
+}
+
+.btn {
+  @extend %btn;
+  margin: 0 20px;
+  &-filtro {
+    background-color: $color-backgroundColorSecundario;
+    color: $color-primario;
+    border-radius: 0;
+    border-bottom: 2px solid $color-primario;
+    &:hover {
+    background-color: $color-backgroundColorSecundario;
+      color: $color-primario;
+      border-bottom: 2px solid $color-primario;
+    }
+  }
+}

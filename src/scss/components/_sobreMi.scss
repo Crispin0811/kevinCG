@@ -1,0 +1,38 @@
+.sobreMi {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  &__descripcion {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+
+    &-img {
+      width: 40%;
+      display: flex;
+      justify-content: center;
+      margin-right: 20px;
+      img {
+        width: 300px;
+        object-fit: cover;
+        display: block;
+      }
+    }
+    &-parrafo {
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      p {
+        font-weight: 200;
+        color: $color-secundario;
+        font-size: $font-size + 2;
+        line-height: 2;
+        text-align: justify;
+      }
+    }
+  }
+}

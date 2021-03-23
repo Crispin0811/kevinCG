@@ -1,0 +1,42 @@
+.contactos {
+  min-height: 100px;
+  display: flex;
+  background-color: $color-secundario;
+  padding: 0 2em;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2em;
+
+ 
+  &__icons {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  & svg {
+    color: white;
+    margin: 0 45px;
+    font-size: 25px;
+    margin-top: 5px;
+    &:hover {
+      color: $color-primario;
+    }
+  }
+
+  &__derechos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15px;
+    & > h6 {
+      color: white;
+      font-size: 15px;
+      letter-spacing: 1px;
+      font-weight: 200;
+    }
+  }
+}

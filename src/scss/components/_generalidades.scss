@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-family;
+}
+
+.listStyleNone {
+  list-style: none;
+}
+
+.textDecorationNone {
+  text-decoration: none;
+}
+
+.encabezado {
+  color: $color-primario;
+  font-size: $font-size + 15;
+  &::before {
+    content: "-";
+  }
+}
+
+.barraCarga {
+  height: 53px;
+  position: fixed;
+  background-color: $color-primario;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.contenedor {
+  display: block;
+  padding: 45px 80px;
+  min-height: 675px;
+  max-width: 100%;
+  height: auto;
+}
+.contenedor--secundario {
+  @extend .contenedor;
+  background-color: $color-backgroundColorSecundario;
+}
+
+.diplayHidden {
+  display: none;
+}
+
+span {
+  font-weight: bold;
+}
