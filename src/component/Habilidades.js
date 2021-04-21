@@ -29,7 +29,7 @@ export default class Habilidades extends Component {
       },
       {
         id: "2",
-        titulo: "Frond End",
+        titulo: "Front End",
         habilidades: [
           {
             id: "1",

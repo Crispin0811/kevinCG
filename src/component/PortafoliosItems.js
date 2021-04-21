@@ -4,7 +4,7 @@ export default function PortafoliosItems(props) {
   return (
     <div data-aos="zoom-in" className="portafolio__card">
       <div className="portafolio__img ">
-        <img loading="lazy" src={props.data.urlImg} alt={props.data.titulo} />
+        <img src={props.data.urlImg} alt={props.data.titulo} />
       </div>
 
       <div className="portafolio__descripcion">
