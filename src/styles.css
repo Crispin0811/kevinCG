@@ -309,7 +309,8 @@ span {
   color: #0f2432;
   font-weight: 200;
   text-align: justify;
-  line-height: 1.6; }
+  line-height: 1.6;
+  margin-bottom: 62px; }
 
 .portafolio__descripcion a {
   display: grid;
@@ -320,7 +321,9 @@ span {
   margin-top: 15px;
   padding: 7px 0;
   background-color: #0f2432;
-  transition: background transition0.5; }
+  position: absolute;
+  width: 93%;
+  bottom: 10px; }
   .portafolio__descripcion a:hover {
     background-color: #3873f3; }
 

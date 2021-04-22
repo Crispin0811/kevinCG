@@ -49,6 +49,7 @@
     font-weight: 200;
     text-align: justify;
     line-height: 1.6;
+    margin-bottom: 62px;
   }
 
   &__descripcion a {
@@ -60,7 +61,9 @@
     margin-top: 15px;
     padding: 7px 0;
     background-color: $color-secundario;
-    transition: background transition + 0.5;
+    position: absolute;
+    width: 93%;
+    bottom: 10px;
     &:hover {
       background-color: $color-primario;
     }
